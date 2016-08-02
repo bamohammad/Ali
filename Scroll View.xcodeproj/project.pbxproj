@@ -15,6 +15,11 @@
 		A83BF79E1D125EA200D63138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83BF79C1D125EA200D63138 /* LaunchScreen.storyboard */; };
 		A83BF7A91D125EA200D63138 /* Scroll_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A83BF7A81D125EA200D63138 /* Scroll_ViewTests.m */; };
 		A83BF7B41D125EA200D63138 /* Scroll_ViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A83BF7B31D125EA200D63138 /* Scroll_ViewUITests.m */; };
+		A83BF7C41D12990200D63138 /* 1art6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A83BF7C31D12990200D63138 /* 1art6.jpg */; };
+		A83BF7C91D12A40400D63138 /* 1art4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A83BF7C51D12A40400D63138 /* 1art4.jpg */; };
+		A83BF7CA1D12A40400D63138 /* 1art5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A83BF7C61D12A40400D63138 /* 1art5.jpg */; };
+		A83BF7CB1D12A40400D63138 /* 1art7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A83BF7C71D12A40400D63138 /* 1art7.jpg */; };
+		A83BF7CC1D12A40400D63138 /* 1art8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A83BF7C81D12A40400D63138 /* 1art8.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		A83BF7AF1D125EA200D63138 /* Scroll ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scroll ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83BF7B31D125EA200D63138 /* Scroll_ViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scroll_ViewUITests.m; sourceTree = "<group>"; };
 		A83BF7B51D125EA200D63138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83BF7C31D12990200D63138 /* 1art6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1art6.jpg; sourceTree = "<group>"; };
+		A83BF7C51D12A40400D63138 /* 1art4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1art4.jpg; sourceTree = "<group>"; };
+		A83BF7C61D12A40400D63138 /* 1art5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1art5.jpg; sourceTree = "<group>"; };
+		A83BF7C71D12A40400D63138 /* 1art7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1art7.jpg; sourceTree = "<group>"; };
+		A83BF7C81D12A40400D63138 /* 1art8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1art8.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +127,11 @@
 		A83BF78E1D125EA200D63138 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A83BF7C31D12990200D63138 /* 1art6.jpg */,
+				A83BF7C51D12A40400D63138 /* 1art4.jpg */,
+				A83BF7C61D12A40400D63138 /* 1art5.jpg */,
+				A83BF7C71D12A40400D63138 /* 1art7.jpg */,
+				A83BF7C81D12A40400D63138 /* 1art8.jpg */,
 				A83BF78F1D125EA200D63138 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +258,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A83BF7CC1D12A40400D63138 /* 1art8.jpg in Resources */,
 				A83BF79E1D125EA200D63138 /* LaunchScreen.storyboard in Resources */,
+				A83BF7C91D12A40400D63138 /* 1art4.jpg in Resources */,
 				A83BF79B1D125EA200D63138 /* Assets.xcassets in Resources */,
+				A83BF7C41D12990200D63138 /* 1art6.jpg in Resources */,
+				A83BF7CB1D12A40400D63138 /* 1art7.jpg in Resources */,
 				A83BF7991D125EA200D63138 /* Main.storyboard in Resources */,
+				A83BF7CA1D12A40400D63138 /* 1art5.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +516,7 @@
 				A83BF7BA1D125EA200D63138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A83BF7BB1D125EA200D63138 /* Build configuration list for PBXNativeTarget "Scroll ViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +525,7 @@
 				A83BF7BD1D125EA200D63138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A83BF7BE1D125EA200D63138 /* Build configuration list for PBXNativeTarget "Scroll ViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +534,7 @@
 				A83BF7C01D125EA200D63138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
